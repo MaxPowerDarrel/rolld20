@@ -1,0 +1,19 @@
+{
+  "name": "rolld20",
+  "version": "1.0.0",
+  "description": "Simple but awesome dice roller",
+  "main": "app.js",
+  "author": "Darrel Ross",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "scripts": {
+    "test": "mocha tests/unit/",
+    "integ-test": "mocha tests/integration/"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.815.0",
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  }
+}
